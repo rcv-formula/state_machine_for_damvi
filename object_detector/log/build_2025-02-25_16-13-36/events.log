@@ -1,0 +1,84 @@
+[0.000000] (-) TimerEvent: {}
+[0.000200] (object_detection) JobQueued: {'identifier': 'object_detection', 'dependencies': OrderedDict()}
+[0.000285] (object_detection) JobStarted: {'identifier': 'object_detection'}
+[0.005391] (object_detection) JobProgress: {'identifier': 'object_detection', 'progress': 'cmake'}
+[0.005974] (object_detection) Command: {'cmd': ['/usr/bin/cmake', '/home/rcv/object_detection/object_detector', '-DCMAKE_INSTALL_PREFIX=/home/rcv/object_detection/object_detector/install/object_detection'], 'cwd': '/home/rcv/object_detection/object_detector/build/object_detection', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'rcv'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rcv'), ('OLDPWD', '/home/rcv/object_detection'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1710'), ('SYSTEMD_EXEC_PID', '2403'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5347'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rcv'), ('JOURNAL_STREAM', '8:16739'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rcv'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rcv-XPS-13-9340:@/tmp/.ICE-unix/1986,unix/rcv-XPS-13-9340:/tmp/.ICE-unix/1986'), ('INVOCATION_ID', 'e07186b3c9ff4150b9fe78e4c59ae33c'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a7a2c96b-3dd3-4ded-8cfb-7b8fcd8aa20a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rcv/object_detection/object_detector/build/object_detection'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.099636] (-) TimerEvent: {}
+[0.104377] (object_detection) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.171545] (object_detection) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.178904] (object_detection) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199732] (-) TimerEvent: {}
+[0.236217] (object_detection) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.241437] (object_detection) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.242273] (object_detection) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.242681] (object_detection) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.244720] (object_detection) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299858] (-) TimerEvent: {}
+[0.302643] (object_detection) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.307912] (object_detection) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.308056] (object_detection) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.308314] (object_detection) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.310965] (object_detection) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399981] (-) TimerEvent: {}
+[0.409259] (object_detection) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.474152] (object_detection) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.500091] (-) TimerEvent: {}
+[0.501270] (object_detection) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.505426] (object_detection) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.510541] (object_detection) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.518525] (object_detection) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.528535] (object_detection) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.557987] (object_detection) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.559589] (object_detection) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600247] (-) TimerEvent: {}
+[0.634727] (object_detection) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.656873] (object_detection) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.683960] (object_detection) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.690299] (object_detection) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.700348] (-) TimerEvent: {}
+[0.749413] (object_detection) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.749702] (object_detection) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.800558] (-) TimerEvent: {}
+[0.802229] (object_detection) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.803019] (object_detection) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.837415] (object_detection) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.859601] (object_detection) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.871810] (object_detection) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[0.886733] (object_detection) StdoutLine: {'line': b'-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.893602] (object_detection) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.900618] (-) TimerEvent: {}
+[0.955313] (object_detection) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.963391] (object_detection) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.964418] (object_detection) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[0.964600] (object_detection) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.000758] (-) TimerEvent: {}
+[1.004063] (object_detection) StderrLine: {'line': b"Error parsing '/home/rcv/object_detection/object_detector/package.xml':\n"}
+[1.032734] (object_detection) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.032989] (object_detection) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[1.033094] (object_detection) StderrLine: {'line': b'    main()\n'}
+[1.033185] (object_detection) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[1.033272] (object_detection) StderrLine: {'line': b'    raise e\n'}
+[1.033359] (object_detection) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[1.033448] (object_detection) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[1.033767] (object_detection) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string\n'}
+[1.033886] (object_detection) StderrLine: {'line': b"    raise InvalidPackage('Error(s):%s' % (''.join(['\\n- %s' % e for e in errors])), filename)\n"}
+[1.033987] (object_detection) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/rcv/object_detection/object_detector/package.xml':\n"}
+[1.034078] (object_detection) StderrLine: {'line': b'Error(s):\n'}
+[1.034163] (object_detection) StderrLine: {'line': b"- The generic dependency on 'rclcpp' is redundant with: build_depend, build_export_depend, exec_depend\n"}
+[1.042577] (object_detection) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[1.042793] (object_detection) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[1.043118] (object_detection) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[1.043260] (object_detection) StderrLine: {'line': b'  /home/rcv/object_detection/object_detector/package.xml\n'}
+[1.043362] (object_detection) StderrLine: {'line': b'  /home/rcv/object_detection/object_detector/build/object_detection/ament_cmake_core/package.cmake)\n'}
+[1.043450] (object_detection) StderrLine: {'line': b'  returned error code 1\n'}
+[1.043577] (object_detection) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.043664] (object_detection) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[1.043748] (object_detection) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)\n'}
+[1.043833] (object_detection) StderrLine: {'line': b'  CMakeLists.txt:77 (ament_package)\n'}
+[1.043931] (object_detection) StderrLine: {'line': b'\n'}
+[1.044031] (object_detection) StderrLine: {'line': b'\x1b[0m\n'}
+[1.044131] (object_detection) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.044244] (object_detection) StdoutLine: {'line': b'See also "/home/rcv/object_detection/object_detector/build/object_detection/CMakeFiles/CMakeOutput.log".\n'}
+[1.053976] (object_detection) CommandEnded: {'returncode': 1}
+[1.054748] (object_detection) JobEnded: {'identifier': 'object_detection', 'rc': 1}
+[1.064398] (-) EventReactorShutdown: {}

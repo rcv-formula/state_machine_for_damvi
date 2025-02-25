@@ -1,0 +1,2 @@
+Invoking command in '/home/rcv/object_detection/object_detector/build/object_detection': /usr/bin/cmake /home/rcv/object_detection/object_detector -DCMAKE_INSTALL_PREFIX=/home/rcv/object_detection/object_detector/install/object_detection
+Invoked command in '/home/rcv/object_detection/object_detector/build/object_detection' returned '1': /usr/bin/cmake /home/rcv/object_detection/object_detector -DCMAKE_INSTALL_PREFIX=/home/rcv/object_detection/object_detector/install/object_detection
