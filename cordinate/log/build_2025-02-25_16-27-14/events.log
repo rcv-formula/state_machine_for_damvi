@@ -1,0 +1,138 @@
+[0.000000] (-) TimerEvent: {}
+[0.000404] (cordinate) JobQueued: {'identifier': 'cordinate', 'dependencies': OrderedDict()}
+[0.000464] (cordinate) JobStarted: {'identifier': 'cordinate'}
+[0.005642] (cordinate) JobProgress: {'identifier': 'cordinate', 'progress': 'cmake'}
+[0.006241] (cordinate) Command: {'cmd': ['/usr/bin/cmake', '/home/rcv/object_detection/cordinate', '-DCMAKE_INSTALL_PREFIX=/home/rcv/object_detection/cordinate/install/cordinate'], 'cwd': '/home/rcv/object_detection/cordinate/build/cordinate', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'rcv'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rcv'), ('OLDPWD', '/home/rcv/object_detection'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1986'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5a622b027b66d3c36770152767bd63f8'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rcv'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rcv'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rcv-XPS-13-9340:@/tmp/.ICE-unix/1986,unix/rcv-XPS-13-9340:/tmp/.ICE-unix/1986'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a5bcdd0b_0d55_4ae0_ab3e_c7e3ab568706'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.260'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rcv/object_detection/cordinate/build/cordinate'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5a622b027b66d3c36770152767bd63f8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.051121] (cordinate) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.085635] (cordinate) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.089646] (cordinate) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099769] (-) TimerEvent: {}
+[0.136792] (cordinate) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.142970] (cordinate) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.143138] (cordinate) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.143240] (cordinate) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.144964] (cordinate) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199890] (-) TimerEvent: {}
+[0.206947] (cordinate) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.213250] (cordinate) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.213448] (cordinate) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.213706] (cordinate) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.214827] (cordinate) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300021] (-) TimerEvent: {}
+[0.315948] (cordinate) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.370356] (cordinate) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.391603] (cordinate) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.393665] (cordinate) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.397440] (cordinate) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.400067] (-) TimerEvent: {}
+[0.403174] (cordinate) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.411225] (cordinate) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.433928] (cordinate) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.435082] (cordinate) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500198] (-) TimerEvent: {}
+[0.502548] (cordinate) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.519610] (cordinate) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.542717] (cordinate) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.546511] (cordinate) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.598883] (cordinate) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.599140] (cordinate) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.600280] (-) TimerEvent: {}
+[0.650451] (cordinate) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.651686] (cordinate) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.682114] (cordinate) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.700345] (-) TimerEvent: {}
+[0.740676] (cordinate) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.745260] (cordinate) StdoutLine: {'line': b'-- Generating done\n'}
+[0.747371] (cordinate) StdoutLine: {'line': b'-- Build files have been written to: /home/rcv/object_detection/cordinate/build/cordinate\n'}
+[0.753023] (cordinate) CommandEnded: {'returncode': 0}
+[0.753562] (cordinate) JobProgress: {'identifier': 'cordinate', 'progress': 'build'}
+[0.753912] (cordinate) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rcv/object_detection/cordinate/build/cordinate', '--', '-j22', '-l22'], 'cwd': '/home/rcv/object_detection/cordinate/build/cordinate', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'rcv'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rcv'), ('OLDPWD', '/home/rcv/object_detection'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1986'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5a622b027b66d3c36770152767bd63f8'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rcv'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rcv'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rcv-XPS-13-9340:@/tmp/.ICE-unix/1986,unix/rcv-XPS-13-9340:/tmp/.ICE-unix/1986'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a5bcdd0b_0d55_4ae0_ab3e_c7e3ab568706'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.260'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rcv/object_detection/cordinate/build/cordinate'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5a622b027b66d3c36770152767bd63f8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.797244] (cordinate) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cordinate_converter.dir/src/cordinate.cpp.o\x1b[0m\n'}
+[0.800421] (-) TimerEvent: {}
+[0.900674] (-) TimerEvent: {}
+[1.001008] (-) TimerEvent: {}
+[1.101343] (-) TimerEvent: {}
+[1.201693] (-) TimerEvent: {}
+[1.302025] (-) TimerEvent: {}
+[1.402362] (-) TimerEvent: {}
+[1.502675] (-) TimerEvent: {}
+[1.603000] (-) TimerEvent: {}
+[1.703334] (-) TimerEvent: {}
+[1.803664] (-) TimerEvent: {}
+[1.904008] (-) TimerEvent: {}
+[2.004363] (-) TimerEvent: {}
+[2.104785] (-) TimerEvent: {}
+[2.205197] (-) TimerEvent: {}
+[2.305603] (-) TimerEvent: {}
+[2.405992] (-) TimerEvent: {}
+[2.506393] (-) TimerEvent: {}
+[2.606817] (-) TimerEvent: {}
+[2.707268] (-) TimerEvent: {}
+[2.807742] (-) TimerEvent: {}
+[2.908209] (-) TimerEvent: {}
+[3.008674] (-) TimerEvent: {}
+[3.109183] (-) TimerEvent: {}
+[3.209703] (-) TimerEvent: {}
+[3.310184] (-) TimerEvent: {}
+[3.410621] (-) TimerEvent: {}
+[3.510947] (-) TimerEvent: {}
+[3.611279] (-) TimerEvent: {}
+[3.711616] (-) TimerEvent: {}
+[3.811941] (-) TimerEvent: {}
+[3.912292] (-) TimerEvent: {}
+[4.012666] (-) TimerEvent: {}
+[4.112977] (-) TimerEvent: {}
+[4.213291] (-) TimerEvent: {}
+[4.313674] (-) TimerEvent: {}
+[4.414058] (-) TimerEvent: {}
+[4.514360] (-) TimerEvent: {}
+[4.614710] (-) TimerEvent: {}
+[4.715089] (-) TimerEvent: {}
+[4.815381] (-) TimerEvent: {}
+[4.915666] (-) TimerEvent: {}
+[5.015966] (-) TimerEvent: {}
+[5.116265] (-) TimerEvent: {}
+[5.216566] (-) TimerEvent: {}
+[5.316847] (-) TimerEvent: {}
+[5.417141] (-) TimerEvent: {}
+[5.517453] (-) TimerEvent: {}
+[5.617777] (-) TimerEvent: {}
+[5.718072] (-) TimerEvent: {}
+[5.818370] (-) TimerEvent: {}
+[5.918743] (-) TimerEvent: {}
+[6.019191] (-) TimerEvent: {}
+[6.119534] (-) TimerEvent: {}
+[6.219865] (-) TimerEvent: {}
+[6.320205] (-) TimerEvent: {}
+[6.340563] (cordinate) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cordinate_converter\x1b[0m\n'}
+[6.420367] (-) TimerEvent: {}
+[6.520779] (-) TimerEvent: {}
+[6.589729] (cordinate) StdoutLine: {'line': b'[100%] Built target cordinate_converter\n'}
+[6.600099] (cordinate) CommandEnded: {'returncode': 0}
+[6.600746] (cordinate) JobProgress: {'identifier': 'cordinate', 'progress': 'install'}
+[6.607665] (cordinate) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rcv/object_detection/cordinate/build/cordinate'], 'cwd': '/home/rcv/object_detection/cordinate/build/cordinate', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'rcv'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rcv'), ('OLDPWD', '/home/rcv/object_detection'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1986'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5a622b027b66d3c36770152767bd63f8'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rcv'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rcv'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rcv-XPS-13-9340:@/tmp/.ICE-unix/1986,unix/rcv-XPS-13-9340:/tmp/.ICE-unix/1986'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a5bcdd0b_0d55_4ae0_ab3e_c7e3ab568706'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.260'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rcv/object_detection/cordinate/build/cordinate'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5a622b027b66d3c36770152767bd63f8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.612885] (cordinate) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.612974] (cordinate) StdoutLine: {'line': b'-- Installing: /home/rcv/object_detection/cordinate/install/cordinate/lib/cordinate/cordinate_converter\n'}
+[6.614674] (cordinate) StdoutLine: {'line': b'-- Set runtime path of "/home/rcv/object_detection/cordinate/install/cordinate/lib/cordinate/cordinate_converter" to ""\n'}
+[6.614772] (cordinate) StdoutLine: {'line': b'-- Installing: /home/rcv/object_detection/cordinate/install/cordinate/share/cordinate/config\n'}
+[6.614800] (cordinate) StdoutLine: {'line': b'-- Installing: /home/rcv/object_detection/cordinate/install/cordinate/share/cordinate/config/config.yaml\n'}
+[6.614846] (cordinate) StdoutLine: {'line': b'-- Installing: /home/rcv/object_detection/cordinate/install/cordinate/share/ament_index/resource_index/package_run_dependencies/cordinate\n'}
+[6.614896] (cordinate) StdoutLine: {'line': b'-- Installing: /home/rcv/object_detection/cordinate/install/cordinate/share/ament_index/resource_index/parent_prefix_path/cordinate\n'}
+[6.614966] (cordinate) StdoutLine: {'line': b'-- Installing: /home/rcv/object_detection/cordinate/install/cordinate/share/cordinate/environment/ament_prefix_path.sh\n'}
+[6.615029] (cordinate) StdoutLine: {'line': b'-- Installing: /home/rcv/object_detection/cordinate/install/cordinate/share/cordinate/environment/ament_prefix_path.dsv\n'}
+[6.615074] (cordinate) StdoutLine: {'line': b'-- Installing: /home/rcv/object_detection/cordinate/install/cordinate/share/cordinate/environment/path.sh\n'}
+[6.615119] (cordinate) StdoutLine: {'line': b'-- Installing: /home/rcv/object_detection/cordinate/install/cordinate/share/cordinate/environment/path.dsv\n'}
+[6.615160] (cordinate) StdoutLine: {'line': b'-- Installing: /home/rcv/object_detection/cordinate/install/cordinate/share/cordinate/local_setup.bash\n'}
+[6.615209] (cordinate) StdoutLine: {'line': b'-- Installing: /home/rcv/object_detection/cordinate/install/cordinate/share/cordinate/local_setup.sh\n'}
+[6.615260] (cordinate) StdoutLine: {'line': b'-- Installing: /home/rcv/object_detection/cordinate/install/cordinate/share/cordinate/local_setup.zsh\n'}
+[6.615311] (cordinate) StdoutLine: {'line': b'-- Installing: /home/rcv/object_detection/cordinate/install/cordinate/share/cordinate/local_setup.dsv\n'}
+[6.615357] (cordinate) StdoutLine: {'line': b'-- Installing: /home/rcv/object_detection/cordinate/install/cordinate/share/cordinate/package.dsv\n'}
+[6.615421] (cordinate) StdoutLine: {'line': b'-- Installing: /home/rcv/object_detection/cordinate/install/cordinate/share/ament_index/resource_index/packages/cordinate\n'}
+[6.615480] (cordinate) StdoutLine: {'line': b'-- Installing: /home/rcv/object_detection/cordinate/install/cordinate/share/cordinate/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.615529] (cordinate) StdoutLine: {'line': b'-- Installing: /home/rcv/object_detection/cordinate/install/cordinate/share/cordinate/cmake/cordinateConfig.cmake\n'}
+[6.615583] (cordinate) StdoutLine: {'line': b'-- Installing: /home/rcv/object_detection/cordinate/install/cordinate/share/cordinate/cmake/cordinateConfig-version.cmake\n'}
+[6.615631] (cordinate) StdoutLine: {'line': b'-- Installing: /home/rcv/object_detection/cordinate/install/cordinate/share/cordinate/package.xml\n'}
+[6.616683] (cordinate) CommandEnded: {'returncode': 0}
+[6.621039] (-) TimerEvent: {}
+[6.625756] (cordinate) JobEnded: {'identifier': 'cordinate', 'rc': 0}
+[6.626121] (-) EventReactorShutdown: {}
