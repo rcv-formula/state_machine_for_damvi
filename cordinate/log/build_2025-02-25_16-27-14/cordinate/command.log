@@ -1,6 +1,0 @@
-Invoking command in '/home/rcv/object_detection/cordinate/build/cordinate': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rcv/object_detection/cordinate -DCMAKE_INSTALL_PREFIX=/home/rcv/object_detection/cordinate/install/cordinate
-Invoked command in '/home/rcv/object_detection/cordinate/build/cordinate' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rcv/object_detection/cordinate -DCMAKE_INSTALL_PREFIX=/home/rcv/object_detection/cordinate/install/cordinate
-Invoking command in '/home/rcv/object_detection/cordinate/build/cordinate': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rcv/object_detection/cordinate/build/cordinate -- -j22 -l22
-Invoked command in '/home/rcv/object_detection/cordinate/build/cordinate' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rcv/object_detection/cordinate/build/cordinate -- -j22 -l22
-Invoking command in '/home/rcv/object_detection/cordinate/build/cordinate': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rcv/object_detection/cordinate/build/cordinate
-Invoked command in '/home/rcv/object_detection/cordinate/build/cordinate' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rcv/object_detection/cordinate/build/cordinate
